@@ -1,8 +1,8 @@
-<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="180" fill="white"/><style>text{font-family:monospace;fill:black;}</style>
-<text x="10" y="30" font-size="14">Jupyter Notebook: 55.8%</text>
-<text x="10" y="55" font-size="14">TypeScript: 29.2%</text>
-<text x="10" y="80" font-size="14">Python: 9.0%</text>
-<text x="10" y="105" font-size="14">JavaScript: 3.0%</text>
-<text x="10" y="130" font-size="14">CSS: 2.9%</text>
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="180" fill="black"/><style>text{font-family:monospace;fill:white;}</style>
+<text x="10" y="30" font-size="14">Jupyter Notebook: 53.6%</text>
+<text x="10" y="55" font-size="14">TypeScript: 28.0%</text>
+<text x="10" y="80" font-size="14">Python: 12.5%</text>
+<text x="10" y="105" font-size="14">JavaScript: 2.9%</text>
+<text x="10" y="130" font-size="14">CSS: 2.8%</text>
 <text x="10" y="155" font-size="14">HTML: 0.1%</text>
 </svg>

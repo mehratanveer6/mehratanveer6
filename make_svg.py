@@ -14,8 +14,8 @@ def main():
 
     svg_parts = []
     svg_parts.append(f'<svg viewBox="0 0 {width:.1f} {height:.1f}" xmlns="http://www.w3.org/2000/svg">')
-    svg_parts.append(f'<rect width="{width:.1f}" height="{height:.1f}" fill="white"/>')
-    svg_parts.append(f'<style>text {{ font-family: monospace; font-size: {FONT_SIZE}px; fill: black; white-space: pre; }}</style>')
+    svg_parts.append(f'<rect width="{width:.1f}" height="{height:.1f}" fill="black"/>')
+    svg_parts.append(f'<style>text {{ font-family: monospace; font-size: {FONT_SIZE}px; fill: white; white-space: pre; }}</style>')
 
     for i, line in enumerate(lines):
         y = 20 + i * LINE_H

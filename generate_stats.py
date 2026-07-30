@@ -111,8 +111,8 @@ def language_bytes(repos):
 def svg_header(w, h):
     return (
         f'<svg viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg">'
-        f'<rect width="{w}" height="{h}" fill="white"/>'
-        f'<style>text{{font-family:monospace;fill:black;}}</style>'
+        f'<rect width="{w}" height="{h}" fill="black"/>'
+        f'<style>text{{font-family:monospace;fill:white;}}</style>'
     )
 
 
@@ -126,7 +126,7 @@ def write_stats_svg(total, sums):
         bh = 0 if maxv == 0 else (v / maxv) * 80
         x = 10 + i * bar_w
         y = 120 - bh
-        parts.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w*0.7:.1f}" height="{bh:.1f}" fill="black"/>')
+        parts.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w*0.7:.1f}" height="{bh:.1f}" fill="white"/>')
     parts.append('</svg>')
     with open('stats.svg', 'w', encoding='utf-8') as f:
         f.write('\n'.join(parts))
