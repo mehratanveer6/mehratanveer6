@@ -181,7 +181,7 @@ def write_year_svg(days):
     w, h = cols * step + 20, rows * step + 20
     parts = [svg_header(w, h)]
     maxv = max((c for _, c in days), default=1) or 1
-    levels = ['#161b22', '#39424e', '#6e7681', '#b1bac4', '#ffffff']
+    levels = ['#2d1b4e', '#5b21b6', '#7c3aed', '#a855f7', '#e9d5ff']
     for idx, (date, count) in enumerate(days):
         col = idx // 7
         row = idx % 7

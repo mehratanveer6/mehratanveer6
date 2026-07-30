@@ -16,8 +16,8 @@
 
 ![year](year.svg)
 
-![heading-projects](heading-projects.svg)
-
 ![heading-contact](heading-contact.svg)
+
+![contact](contact.svg)
 
 <samp>Python · JavaScript · React</samp>
