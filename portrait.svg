@@ -259,4 +259,5 @@
 </rect>
 </clipPath>
 <text x="10" y="650.0" clip-path="url(#clip42)">%%%%%%%s:`:----==*css=..           ..........        .... ....``=s%@@@@@@@@@@@@@@@@@@@@@@@</text>
+<rect x="706.6" y="638.0" width="7.7" height="15.0" fill="white" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1s" begin="4.37s" repeatCount="indefinite"/></rect>
 </svg>

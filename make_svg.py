@@ -29,6 +29,16 @@ def main():
         safe_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         svg_parts.append(f'<text x="10" y="{y:.1f}" clip-path="url(#{clip_id})">{safe_line}</text>')
 
+    total_dur = rows * 0.09 + 0.5
+    last_y = 20 + (rows - 1) * LINE_H
+    cursor_x = 10 + (max(len(l) for l in lines)) * CHAR_W
+    svg_parts.append(
+        f'<rect x="{cursor_x:.1f}" y="{last_y-12:.1f}" width="{CHAR_W:.1f}" height="{LINE_H:.1f}" fill="white" opacity="0">'
+        f'<animate attributeName="opacity" values="0;1;0" dur="1s" '
+        f'begin="{total_dur:.2f}s" repeatCount="indefinite"/>'
+        f'</rect>'
+    )
+
     svg_parts.append('</svg>')
 
     svg = '\n'.join(svg_parts)

@@ -1,8 +1,8 @@
 <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="180" fill="black"/><style>text{font-family:monospace;fill:white;}</style>
-<text x="10" y="30" font-size="14">Jupyter Notebook: 53.6%</text>
-<text x="10" y="55" font-size="14">TypeScript: 28.0%</text>
-<text x="10" y="80" font-size="14">Python: 12.5%</text>
-<text x="10" y="105" font-size="14">JavaScript: 2.9%</text>
-<text x="10" y="130" font-size="14">CSS: 2.8%</text>
-<text x="10" y="155" font-size="14">HTML: 0.1%</text>
+<text x="10" y="30" font-size="14" opacity="0">Jupyter Notebook: 53.6%<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.00s" fill="freeze"/></text>
+<text x="10" y="55" font-size="14" opacity="0">TypeScript: 28.0%<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.10s" fill="freeze"/></text>
+<text x="10" y="80" font-size="14" opacity="0">Python: 12.5%<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.20s" fill="freeze"/></text>
+<text x="10" y="105" font-size="14" opacity="0">JavaScript: 2.9%<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.30s" fill="freeze"/></text>
+<text x="10" y="130" font-size="14" opacity="0">CSS: 2.8%<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.40s" fill="freeze"/></text>
+<text x="10" y="155" font-size="14" opacity="0">HTML: 0.1%<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.50s" fill="freeze"/></text>
 </svg>

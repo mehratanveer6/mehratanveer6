@@ -119,14 +119,23 @@ def svg_header(w, h):
 def write_stats_svg(total, sums):
     w, h = 500, 140
     parts = [svg_header(w, h)]
-    parts.append(f'<text x="10" y="30" font-size="24">{total} contributions</text>')
+    parts.append(f'<text x="10" y="30" font-size="24" opacity="0">{total} contributions'
+                  f'<animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze"/>'
+                  f'</text>')
     maxv = max(sums) if sums else 1
     bar_w = (w - 20) / max(len(sums), 1)
     for i, v in enumerate(sums):
         bh = 0 if maxv == 0 else (v / maxv) * 80
         x = 10 + i * bar_w
         y = 120 - bh
-        parts.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w*0.7:.1f}" height="{bh:.1f}" fill="white"/>')
+        parts.append(
+            f'<rect x="{x:.1f}" y="120" width="{bar_w*0.7:.1f}" height="0" fill="white">'
+            f'<animate attributeName="height" from="0" to="{bh:.1f}" dur="0.5s" '
+            f'begin="{i*0.02:.2f}s" fill="freeze"/>'
+            f'<animate attributeName="y" from="120" to="{y:.1f}" dur="0.5s" '
+            f'begin="{i*0.02:.2f}s" fill="freeze"/>'
+            f'</rect>'
+        )
     parts.append('</svg>')
     with open('stats.svg', 'w', encoding='utf-8') as f:
         f.write('\n'.join(parts))
@@ -135,8 +144,12 @@ def write_stats_svg(total, sums):
 def write_streak_svg(current, longest):
     w, h = 400, 100
     parts = [svg_header(w, h)]
-    parts.append(f'<text x="10" y="30" font-size="18">current streak: {current} days</text>')
-    parts.append(f'<text x="10" y="60" font-size="18">longest streak: {longest} days</text>')
+    parts.append(f'<text x="10" y="30" font-size="18" opacity="0">current streak: {current} days'
+                  f'<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze"/>'
+                  f'</text>')
+    parts.append(f'<text x="10" y="60" font-size="18" opacity="0">longest streak: {longest} days'
+                  f'<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>'
+                  f'</text>')
     parts.append('</svg>')
     with open('streak.svg', 'w', encoding='utf-8') as f:
         f.write('\n'.join(parts))
@@ -150,7 +163,10 @@ def write_langs_svg(langs):
     for i, (name, size) in enumerate(top):
         pct = size / total * 100
         y = 30 + i * 25
-        parts.append(f'<text x="10" y="{y}" font-size="14">{name}: {pct:.1f}%</text>')
+        parts.append(f'<text x="10" y="{y}" font-size="14" opacity="0">{name}: {pct:.1f}%'
+                      f'<animate attributeName="opacity" from="0" to="1" dur="0.5s" '
+                      f'begin="{i*0.1:.2f}s" fill="freeze"/>'
+                      f'</text>')
     parts.append('</svg>')
     with open('langs.svg', 'w', encoding='utf-8') as f:
         f.write('\n'.join(parts))
@@ -171,7 +187,12 @@ def write_year_svg(days):
         y = 10 + row * cell
         level = int((count / maxv) * n) if maxv else 0
         ch = RAMP[level]
-        parts.append(f'<text x="{x}" y="{y+9}" font-size="10">{ch}</text>')
+        parts.append(
+            f'<text x="{x}" y="{y+9}" font-size="10" opacity="0">{ch}'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.3s" '
+            f'begin="{idx*0.003:.3f}s" fill="freeze"/>'
+            f'</text>'
+        )
     parts.append('</svg>')
     with open('year.svg', 'w', encoding='utf-8') as f:
         f.write('\n'.join(parts))
