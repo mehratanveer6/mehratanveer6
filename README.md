@@ -1,6 +1,8 @@
+![intro](intro.svg)
+
 ![heading-about](heading-about.svg)
 
-> fullstack developer building tools that don't lack user experience. experience over everything.
+> full stack dev, focus on building quality developer tools, user experience over everything.
 
 ![portrait](portrait.svg)
 
@@ -9,6 +11,10 @@
 ![stats](stats.svg)
 
 ![streak](streak.svg)
+
+![langs](langs.svg)
+
+![year](year.svg)
 
 ![heading-projects](heading-projects.svg)
 

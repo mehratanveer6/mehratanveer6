@@ -1,0 +1,17 @@
+<svg viewBox="0 0 298.6 60.0" xmlns="http://www.w3.org/2000/svg">
+<rect width="298.6" height="60.0" rx="6" fill="black"/>
+<style>text { font-family: monospace; font-size: 12.9px; fill: white; white-space: pre; }</style>
+<clipPath id="introclip0">
+<rect x="10" y="11.0" width="0" height="20.0">
+<animate attributeName="width" from="0" to="170.3" dur="0.8s" begin="0.00s" fill="freeze"/>
+</rect>
+</clipPath>
+<text x="10" y="25.0" clip-path="url(#introclip0)">guest@github:~$ whoami</text>
+<clipPath id="introclip1">
+<rect x="10" y="31.0" width="0" height="20.0">
+<animate attributeName="width" from="0" to="278.6" dur="0.8s" begin="1.00s" fill="freeze"/>
+</rect>
+</clipPath>
+<text x="10" y="45.0" clip-path="url(#introclip1)">mehratanveer6 — building experiences</text>
+<rect x="288.6" y="31.0" width="7.7" height="20.0" fill="white" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="1s" begin="2.50s" repeatCount="indefinite"/></rect>
+</svg>

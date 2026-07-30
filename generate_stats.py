@@ -173,25 +173,31 @@ def write_langs_svg(langs):
 
 
 def write_year_svg(days):
-    cols = 53
+    cell = 11
+    gap = 2
+    step = cell + gap
     rows = 7
-    cell = 10
-    w, h = cols * cell + 20, rows * cell + 20
+    cols = (len(days) + 6) // 7
+    w, h = cols * step + 20, rows * step + 20
     parts = [svg_header(w, h)]
     maxv = max((c for _, c in days), default=1) or 1
-    n = len(RAMP) - 1
+    levels = ['#161b22', '#39424e', '#6e7681', '#b1bac4', '#ffffff']
     for idx, (date, count) in enumerate(days):
         col = idx // 7
         row = idx % 7
-        x = 10 + col * cell
-        y = 10 + row * cell
-        level = int((count / maxv) * n) if maxv else 0
-        ch = RAMP[level]
+        x = 10 + col * step
+        y = 10 + row * step
+        if count == 0:
+            lvl = 0
+        else:
+            lvl = 1 + min(3, int((count / maxv) * 3))
+        color = levels[lvl]
         parts.append(
-            f'<text x="{x}" y="{y+9}" font-size="10" opacity="0">{ch}'
+            f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{color}" opacity="0">'
+            f'<title>{date}: {count} contributions</title>'
             f'<animate attributeName="opacity" from="0" to="1" dur="0.3s" '
             f'begin="{idx*0.003:.3f}s" fill="freeze"/>'
-            f'</text>'
+            f'</rect>'
         )
     parts.append('</svg>')
     with open('year.svg', 'w', encoding='utf-8') as f:
