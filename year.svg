@@ -1,0 +1,367 @@
+<svg viewBox="0 0 550 90" xmlns="http://www.w3.org/2000/svg"><rect width="550" height="90" fill="white"/><style>text{font-family:monospace;fill:black;}</style>
+<text x="10" y="19" font-size="10">:</text>
+<text x="10" y="29" font-size="10">.</text>
+<text x="10" y="39" font-size="10">:</text>
+<text x="10" y="49" font-size="10">.</text>
+<text x="10" y="59" font-size="10"> </text>
+<text x="10" y="69" font-size="10">`</text>
+<text x="10" y="79" font-size="10">`</text>
+<text x="20" y="19" font-size="10">`</text>
+<text x="20" y="29" font-size="10"> </text>
+<text x="20" y="39" font-size="10">`</text>
+<text x="20" y="49" font-size="10">`</text>
+<text x="20" y="59" font-size="10">`</text>
+<text x="20" y="69" font-size="10">.</text>
+<text x="20" y="79" font-size="10"> </text>
+<text x="30" y="19" font-size="10">.</text>
+<text x="30" y="29" font-size="10">.</text>
+<text x="30" y="39" font-size="10">`</text>
+<text x="30" y="49" font-size="10">.</text>
+<text x="30" y="59" font-size="10"> </text>
+<text x="30" y="69" font-size="10">.</text>
+<text x="30" y="79" font-size="10"> </text>
+<text x="40" y="19" font-size="10">`</text>
+<text x="40" y="29" font-size="10">`</text>
+<text x="40" y="39" font-size="10">:</text>
+<text x="40" y="49" font-size="10">`</text>
+<text x="40" y="59" font-size="10"> </text>
+<text x="40" y="69" font-size="10">.</text>
+<text x="40" y="79" font-size="10">:</text>
+<text x="50" y="19" font-size="10">:</text>
+<text x="50" y="29" font-size="10"> </text>
+<text x="50" y="39" font-size="10"> </text>
+<text x="50" y="49" font-size="10">.</text>
+<text x="50" y="59" font-size="10"> </text>
+<text x="50" y="69" font-size="10">.</text>
+<text x="50" y="79" font-size="10"> </text>
+<text x="60" y="19" font-size="10">`</text>
+<text x="60" y="29" font-size="10">.</text>
+<text x="60" y="39" font-size="10">.</text>
+<text x="60" y="49" font-size="10"> </text>
+<text x="60" y="59" font-size="10">:</text>
+<text x="60" y="69" font-size="10">.</text>
+<text x="60" y="79" font-size="10">.</text>
+<text x="70" y="19" font-size="10"> </text>
+<text x="70" y="29" font-size="10">`</text>
+<text x="70" y="39" font-size="10">.</text>
+<text x="70" y="49" font-size="10"> </text>
+<text x="70" y="59" font-size="10">.</text>
+<text x="70" y="69" font-size="10">`</text>
+<text x="70" y="79" font-size="10">`</text>
+<text x="80" y="19" font-size="10">-</text>
+<text x="80" y="29" font-size="10">.</text>
+<text x="80" y="39" font-size="10">.</text>
+<text x="80" y="49" font-size="10">.</text>
+<text x="80" y="59" font-size="10"> </text>
+<text x="80" y="69" font-size="10">:</text>
+<text x="80" y="79" font-size="10">.</text>
+<text x="90" y="19" font-size="10">`</text>
+<text x="90" y="29" font-size="10">`</text>
+<text x="90" y="39" font-size="10">`</text>
+<text x="90" y="49" font-size="10">`</text>
+<text x="90" y="59" font-size="10">.</text>
+<text x="90" y="69" font-size="10"> </text>
+<text x="90" y="79" font-size="10"> </text>
+<text x="100" y="19" font-size="10">`</text>
+<text x="100" y="29" font-size="10">:</text>
+<text x="100" y="39" font-size="10">`</text>
+<text x="100" y="49" font-size="10"> </text>
+<text x="100" y="59" font-size="10">`</text>
+<text x="100" y="69" font-size="10">.</text>
+<text x="100" y="79" font-size="10">.</text>
+<text x="110" y="19" font-size="10"> </text>
+<text x="110" y="29" font-size="10">`</text>
+<text x="110" y="39" font-size="10">.</text>
+<text x="110" y="49" font-size="10">:</text>
+<text x="110" y="59" font-size="10">.</text>
+<text x="110" y="69" font-size="10">:</text>
+<text x="110" y="79" font-size="10">`</text>
+<text x="120" y="19" font-size="10">.</text>
+<text x="120" y="29" font-size="10">.</text>
+<text x="120" y="39" font-size="10">.</text>
+<text x="120" y="49" font-size="10">`</text>
+<text x="120" y="59" font-size="10">`</text>
+<text x="120" y="69" font-size="10"> </text>
+<text x="120" y="79" font-size="10">`</text>
+<text x="130" y="19" font-size="10">:</text>
+<text x="130" y="29" font-size="10">.</text>
+<text x="130" y="39" font-size="10">.</text>
+<text x="130" y="49" font-size="10"> </text>
+<text x="130" y="59" font-size="10">.</text>
+<text x="130" y="69" font-size="10">`</text>
+<text x="130" y="79" font-size="10">`</text>
+<text x="140" y="19" font-size="10">`</text>
+<text x="140" y="29" font-size="10">:</text>
+<text x="140" y="39" font-size="10"> </text>
+<text x="140" y="49" font-size="10"> </text>
+<text x="140" y="59" font-size="10">`</text>
+<text x="140" y="69" font-size="10"> </text>
+<text x="140" y="79" font-size="10"> </text>
+<text x="150" y="19" font-size="10">`</text>
+<text x="150" y="29" font-size="10">`</text>
+<text x="150" y="39" font-size="10">.</text>
+<text x="150" y="49" font-size="10">.</text>
+<text x="150" y="59" font-size="10">`</text>
+<text x="150" y="69" font-size="10"> </text>
+<text x="150" y="79" font-size="10">:</text>
+<text x="160" y="19" font-size="10">.</text>
+<text x="160" y="29" font-size="10">.</text>
+<text x="160" y="39" font-size="10">.</text>
+<text x="160" y="49" font-size="10">.</text>
+<text x="160" y="59" font-size="10">`</text>
+<text x="160" y="69" font-size="10">.</text>
+<text x="160" y="79" font-size="10">.</text>
+<text x="170" y="19" font-size="10">:</text>
+<text x="170" y="29" font-size="10"> </text>
+<text x="170" y="39" font-size="10"> </text>
+<text x="170" y="49" font-size="10">.</text>
+<text x="170" y="59" font-size="10"> </text>
+<text x="170" y="69" font-size="10">.</text>
+<text x="170" y="79" font-size="10">.</text>
+<text x="180" y="19" font-size="10">.</text>
+<text x="180" y="29" font-size="10">:</text>
+<text x="180" y="39" font-size="10">.</text>
+<text x="180" y="49" font-size="10">`</text>
+<text x="180" y="59" font-size="10">.</text>
+<text x="180" y="69" font-size="10">`</text>
+<text x="180" y="79" font-size="10">`</text>
+<text x="190" y="19" font-size="10">:</text>
+<text x="190" y="29" font-size="10">.</text>
+<text x="190" y="39" font-size="10">.</text>
+<text x="190" y="49" font-size="10">`</text>
+<text x="190" y="59" font-size="10">`</text>
+<text x="190" y="69" font-size="10">.</text>
+<text x="190" y="79" font-size="10">.</text>
+<text x="200" y="19" font-size="10">.</text>
+<text x="200" y="29" font-size="10">.</text>
+<text x="200" y="39" font-size="10">`</text>
+<text x="200" y="49" font-size="10">`</text>
+<text x="200" y="59" font-size="10">.</text>
+<text x="200" y="69" font-size="10">`</text>
+<text x="200" y="79" font-size="10">.</text>
+<text x="210" y="19" font-size="10">.</text>
+<text x="210" y="29" font-size="10">.</text>
+<text x="210" y="39" font-size="10"> </text>
+<text x="210" y="49" font-size="10">.</text>
+<text x="210" y="59" font-size="10">.</text>
+<text x="210" y="69" font-size="10">.</text>
+<text x="210" y="79" font-size="10"> </text>
+<text x="220" y="19" font-size="10">`</text>
+<text x="220" y="29" font-size="10"> </text>
+<text x="220" y="39" font-size="10">:</text>
+<text x="220" y="49" font-size="10">`</text>
+<text x="220" y="59" font-size="10">`</text>
+<text x="220" y="69" font-size="10">:</text>
+<text x="220" y="79" font-size="10">`</text>
+<text x="230" y="19" font-size="10"> </text>
+<text x="230" y="29" font-size="10">`</text>
+<text x="230" y="39" font-size="10">.</text>
+<text x="230" y="49" font-size="10">:</text>
+<text x="230" y="59" font-size="10"> </text>
+<text x="230" y="69" font-size="10"> </text>
+<text x="230" y="79" font-size="10">:</text>
+<text x="240" y="19" font-size="10"> </text>
+<text x="240" y="29" font-size="10">`</text>
+<text x="240" y="39" font-size="10">.</text>
+<text x="240" y="49" font-size="10">`</text>
+<text x="240" y="59" font-size="10">`</text>
+<text x="240" y="69" font-size="10">`</text>
+<text x="240" y="79" font-size="10">:</text>
+<text x="250" y="19" font-size="10"> </text>
+<text x="250" y="29" font-size="10">.</text>
+<text x="250" y="39" font-size="10">.</text>
+<text x="250" y="49" font-size="10">`</text>
+<text x="250" y="59" font-size="10"> </text>
+<text x="250" y="69" font-size="10">.</text>
+<text x="250" y="79" font-size="10"> </text>
+<text x="260" y="19" font-size="10">.</text>
+<text x="260" y="29" font-size="10">`</text>
+<text x="260" y="39" font-size="10">`</text>
+<text x="260" y="49" font-size="10">`</text>
+<text x="260" y="59" font-size="10">:</text>
+<text x="260" y="69" font-size="10"> </text>
+<text x="260" y="79" font-size="10">.</text>
+<text x="270" y="19" font-size="10"> </text>
+<text x="270" y="29" font-size="10">`</text>
+<text x="270" y="39" font-size="10">.</text>
+<text x="270" y="49" font-size="10">.</text>
+<text x="270" y="59" font-size="10">.</text>
+<text x="270" y="69" font-size="10"> </text>
+<text x="270" y="79" font-size="10">.</text>
+<text x="280" y="19" font-size="10">`</text>
+<text x="280" y="29" font-size="10">`</text>
+<text x="280" y="39" font-size="10">.</text>
+<text x="280" y="49" font-size="10"> </text>
+<text x="280" y="59" font-size="10">`</text>
+<text x="280" y="69" font-size="10">`</text>
+<text x="280" y="79" font-size="10">.</text>
+<text x="290" y="19" font-size="10">:</text>
+<text x="290" y="29" font-size="10">:</text>
+<text x="290" y="39" font-size="10">.</text>
+<text x="290" y="49" font-size="10">.</text>
+<text x="290" y="59" font-size="10">:</text>
+<text x="290" y="69" font-size="10">`</text>
+<text x="290" y="79" font-size="10">.</text>
+<text x="300" y="19" font-size="10">`</text>
+<text x="300" y="29" font-size="10">:</text>
+<text x="300" y="39" font-size="10">.</text>
+<text x="300" y="49" font-size="10">:</text>
+<text x="300" y="59" font-size="10">`</text>
+<text x="300" y="69" font-size="10">`</text>
+<text x="300" y="79" font-size="10">.</text>
+<text x="310" y="19" font-size="10">.</text>
+<text x="310" y="29" font-size="10">.</text>
+<text x="310" y="39" font-size="10">:</text>
+<text x="310" y="49" font-size="10">`</text>
+<text x="310" y="59" font-size="10">-</text>
+<text x="310" y="69" font-size="10"> </text>
+<text x="310" y="79" font-size="10">.</text>
+<text x="320" y="19" font-size="10">.</text>
+<text x="320" y="29" font-size="10">.</text>
+<text x="320" y="39" font-size="10">.</text>
+<text x="320" y="49" font-size="10">.</text>
+<text x="320" y="59" font-size="10"> </text>
+<text x="320" y="69" font-size="10">`</text>
+<text x="320" y="79" font-size="10">`</text>
+<text x="330" y="19" font-size="10">:</text>
+<text x="330" y="29" font-size="10">.</text>
+<text x="330" y="39" font-size="10"> </text>
+<text x="330" y="49" font-size="10">.</text>
+<text x="330" y="59" font-size="10">.</text>
+<text x="330" y="69" font-size="10">`</text>
+<text x="330" y="79" font-size="10">.</text>
+<text x="340" y="19" font-size="10">.</text>
+<text x="340" y="29" font-size="10">.</text>
+<text x="340" y="39" font-size="10">:</text>
+<text x="340" y="49" font-size="10">`</text>
+<text x="340" y="59" font-size="10">.</text>
+<text x="340" y="69" font-size="10">-</text>
+<text x="340" y="79" font-size="10">:</text>
+<text x="350" y="19" font-size="10">`</text>
+<text x="350" y="29" font-size="10">.</text>
+<text x="350" y="39" font-size="10">.</text>
+<text x="350" y="49" font-size="10">`</text>
+<text x="350" y="59" font-size="10">`</text>
+<text x="350" y="69" font-size="10">.</text>
+<text x="350" y="79" font-size="10">`</text>
+<text x="360" y="19" font-size="10">.</text>
+<text x="360" y="29" font-size="10"> </text>
+<text x="360" y="39" font-size="10">=</text>
+<text x="360" y="49" font-size="10">:</text>
+<text x="360" y="59" font-size="10">`</text>
+<text x="360" y="69" font-size="10">`</text>
+<text x="360" y="79" font-size="10">=</text>
+<text x="370" y="19" font-size="10">`</text>
+<text x="370" y="29" font-size="10">`</text>
+<text x="370" y="39" font-size="10"> </text>
+<text x="370" y="49" font-size="10"> </text>
+<text x="370" y="59" font-size="10">:</text>
+<text x="370" y="69" font-size="10">.</text>
+<text x="370" y="79" font-size="10">:</text>
+<text x="380" y="19" font-size="10">.</text>
+<text x="380" y="29" font-size="10">.</text>
+<text x="380" y="39" font-size="10">.</text>
+<text x="380" y="49" font-size="10"> </text>
+<text x="380" y="59" font-size="10">`</text>
+<text x="380" y="69" font-size="10">`</text>
+<text x="380" y="79" font-size="10">`</text>
+<text x="390" y="19" font-size="10">.</text>
+<text x="390" y="29" font-size="10">`</text>
+<text x="390" y="39" font-size="10">.</text>
+<text x="390" y="49" font-size="10">.</text>
+<text x="390" y="59" font-size="10">.</text>
+<text x="390" y="69" font-size="10"> </text>
+<text x="390" y="79" font-size="10">`</text>
+<text x="400" y="19" font-size="10">`</text>
+<text x="400" y="29" font-size="10">=</text>
+<text x="400" y="39" font-size="10">`</text>
+<text x="400" y="49" font-size="10"> </text>
+<text x="400" y="59" font-size="10"> </text>
+<text x="400" y="69" font-size="10">`</text>
+<text x="400" y="79" font-size="10">.</text>
+<text x="410" y="19" font-size="10">:</text>
+<text x="410" y="29" font-size="10">.</text>
+<text x="410" y="39" font-size="10">.</text>
+<text x="410" y="49" font-size="10">:</text>
+<text x="410" y="59" font-size="10">`</text>
+<text x="410" y="69" font-size="10">`</text>
+<text x="410" y="79" font-size="10">`</text>
+<text x="420" y="19" font-size="10">`</text>
+<text x="420" y="29" font-size="10">-</text>
+<text x="420" y="39" font-size="10">`</text>
+<text x="420" y="49" font-size="10">.</text>
+<text x="420" y="59" font-size="10"> </text>
+<text x="420" y="69" font-size="10">.</text>
+<text x="420" y="79" font-size="10">.</text>
+<text x="430" y="19" font-size="10">.</text>
+<text x="430" y="29" font-size="10">:</text>
+<text x="430" y="39" font-size="10">:</text>
+<text x="430" y="49" font-size="10">`</text>
+<text x="430" y="59" font-size="10"> </text>
+<text x="430" y="69" font-size="10"> </text>
+<text x="430" y="79" font-size="10">.</text>
+<text x="440" y="19" font-size="10">`</text>
+<text x="440" y="29" font-size="10">`</text>
+<text x="440" y="39" font-size="10">.</text>
+<text x="440" y="49" font-size="10">`</text>
+<text x="440" y="59" font-size="10"> </text>
+<text x="440" y="69" font-size="10">.</text>
+<text x="440" y="79" font-size="10">.</text>
+<text x="450" y="19" font-size="10"> </text>
+<text x="450" y="29" font-size="10">.</text>
+<text x="450" y="39" font-size="10">.</text>
+<text x="450" y="49" font-size="10">`</text>
+<text x="450" y="59" font-size="10">.</text>
+<text x="450" y="69" font-size="10">.</text>
+<text x="450" y="79" font-size="10">.</text>
+<text x="460" y="19" font-size="10">:</text>
+<text x="460" y="29" font-size="10">.</text>
+<text x="460" y="39" font-size="10">.</text>
+<text x="460" y="49" font-size="10">.</text>
+<text x="460" y="59" font-size="10">`</text>
+<text x="460" y="69" font-size="10">:</text>
+<text x="460" y="79" font-size="10"> </text>
+<text x="470" y="19" font-size="10">.</text>
+<text x="470" y="29" font-size="10"> </text>
+<text x="470" y="39" font-size="10">.</text>
+<text x="470" y="49" font-size="10"> </text>
+<text x="470" y="59" font-size="10">:</text>
+<text x="470" y="69" font-size="10">`</text>
+<text x="470" y="79" font-size="10"> </text>
+<text x="480" y="19" font-size="10">.</text>
+<text x="480" y="29" font-size="10">.</text>
+<text x="480" y="39" font-size="10">`</text>
+<text x="480" y="49" font-size="10">-</text>
+<text x="480" y="59" font-size="10">:</text>
+<text x="480" y="69" font-size="10">`</text>
+<text x="480" y="79" font-size="10">`</text>
+<text x="490" y="19" font-size="10"> </text>
+<text x="490" y="29" font-size="10">.</text>
+<text x="490" y="39" font-size="10">`</text>
+<text x="490" y="49" font-size="10">-</text>
+<text x="490" y="59" font-size="10">.</text>
+<text x="490" y="69" font-size="10">`</text>
+<text x="490" y="79" font-size="10">.</text>
+<text x="500" y="19" font-size="10">.</text>
+<text x="500" y="29" font-size="10">`</text>
+<text x="500" y="39" font-size="10">`</text>
+<text x="500" y="49" font-size="10">.</text>
+<text x="500" y="59" font-size="10">:</text>
+<text x="500" y="69" font-size="10"> </text>
+<text x="500" y="79" font-size="10">`</text>
+<text x="510" y="19" font-size="10"> </text>
+<text x="510" y="29" font-size="10"> </text>
+<text x="510" y="39" font-size="10">.</text>
+<text x="510" y="49" font-size="10"> </text>
+<text x="510" y="59" font-size="10">:</text>
+<text x="510" y="69" font-size="10"> </text>
+<text x="510" y="79" font-size="10">.</text>
+<text x="520" y="19" font-size="10">`</text>
+<text x="520" y="29" font-size="10"> </text>
+<text x="520" y="39" font-size="10">s</text>
+<text x="520" y="49" font-size="10">@</text>
+<text x="520" y="59" font-size="10"> </text>
+<text x="520" y="69" font-size="10">`</text>
+<text x="520" y="79" font-size="10">:</text>
+<text x="530" y="19" font-size="10">:</text>
+</svg>
