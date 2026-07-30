@@ -1,6 +1,6 @@
 ![heading-about](heading-about.svg)
 
-> Full-stack developer building small, sharp tools.
+> fullstack developer building tools that don't lack user experience. experience over everything.
 
 ![portrait](portrait.svg)
 
@@ -11,8 +11,6 @@
 ![streak](streak.svg)
 
 ![heading-projects](heading-projects.svg)
-
-Add your project list here.
 
 ![heading-contact](heading-contact.svg)
 
