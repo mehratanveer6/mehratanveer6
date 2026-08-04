@@ -1,4 +1,4 @@
 <svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="100" fill="black"/><style>text{font-family:monospace;fill:white;}</style>
-<text x="10" y="30" font-size="18" opacity="0">current streak: 15 days<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze"/></text>
+<text x="10" y="30" font-size="18" opacity="0">current streak: 16 days<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze"/></text>
 <text x="10" y="60" font-size="18" opacity="0">longest streak: 130 days<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/></text>
 </svg>
